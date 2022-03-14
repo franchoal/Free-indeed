@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free indeed</title>
+    <link rel="stylesheet" href="./css/free.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+          <h1 id="title" class="text-center">Christ Pavilion Church</h1>
+          <p id="description" class="description text-center"><b>
+            Free-Indeed 2022 Registration Form</b><br>April 1-3
+          </p>
+        </header>
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+          </div>
+        
+          <div class="frm-group">
+              <label id="Phone-Number" for="phone">Phone-Number</label>
+              <input type="number"> 
+          </div>
+          <div class="form-group">
+            <p>Which option best describes you?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select your current status</option>
+              <option value="student">Student</option>
+              <option value="job">Working class</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <P>Gender</P>
+          <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked
+        />Male</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"
+        />Female</label
+      >
+
+          <div class="form-group">
+            <p>Would you recommend free indeed to a friend?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Definitely</label
+            >
+            <label>
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />Maybe</label
+            >
+      
+            <label
+              ><input
+                name="user-recommend"
+                value="not-sure"
+                type="radio"
+                class="input-radio"
+              />Not sure</label
+            >
+          </div>
+      
+          <div class="form-group">
+            <p>
+              What is your Challenge?
+            </p>
+            <select id="most-like" name="mostLike" class="form-control" required>
+              <option disabled selected value>Select an option</option>
+              <option value="challenges">Health challenges</option>
+              <option value="projects">Wearied</option>
+              <option value="community">Discouraged</option>
+              <option value="openSource">Spiritual</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <p>
+              What is your Expectation for the meeting?
+            </p>
+      
+            <label
+              ><input
+                name="prefer"
+                value="front-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Healing</label
+            >
+            <label>
+              <input
+                name="prefer"
+                value="back-end-projects"
+                type="checkbox"
+                class="input-checkbox"
+              />Increased Effectiveness</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="data-visualization"
+                type="checkbox"
+                class="input-checkbox"
+              />Gift of the Spirit</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="challenges"
+                type="checkbox"
+                class="input-checkbox"
+              />Fresh fire of the Spirit</label
+            >
+            <label
+              ><input
+                name="prefer"
+                value="open-source-community"
+                type="checkbox"
+                class="input-checkbox"
+              />Revelation Knowledge</label
+            >
+          </div>
+      
+          <div class="form-group">
+            <p>Any comments?</p>
+            <textarea
+              id="comments"
+              class="input-textarea"
+              name="comment"
+              placeholder="Enter your comment here..."
+            ></textarea>
+          </div>
+      
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      
+    
+</body>
+</html>
